@@ -1,0 +1,42 @@
+
+<html>
+    <style>
+        div{
+            height: 200;
+            width: 300;
+            background-color: blue;
+            padding: 20px;
+            border: 3px solid;
+        }
+        span{
+            height: 200;
+            width: 300;
+            background-color: blue;
+            padding: 20px;
+            /* margin: 30px; */
+            border: 3px solid;
+            display: inline-block;
+
+        }
+        span{
+            height: 200;
+            width: 300;
+            background-color: blue;
+            padding: 20px;
+            /* margin: 30px; */
+            border: 3px solid;
+            /* display: inline; */
+            /* display: block; */
+            display: inline-block;
+            /* display: none; */
+            /* display: hidden; */
+        }
+    </style>
+    <head>
+        <div>
+            hello 
+        </div>
+        <span>hello</span>
+        <span>hello</span>
+    </head>
+</html>
