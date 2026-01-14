@@ -1,0 +1,49 @@
+<html>
+    <style>
+          #parent{
+            height: 400px;
+             width: 1050px;
+            background-color: aqua; 
+            border: 2px solid black;
+            margin: 100px;
+          }
+          #parent:hover .one{
+            margin-left: 950px;
+          }
+          .one{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            transition: 5s;
+          }
+          #one{
+            background-color: brown;
+            transition-timing-function: linear;
+        
+          }
+          #two{
+            background-color: antiquewhite;
+            transition-timing-function: ease ease-in;
+          }
+          #three{
+            background-color: rgb(150, 150, 227);
+            transition-timing-function: ease ease-out;
+          }
+          #four{
+            background-color: greenyellow;
+            transition-timing-function: ease-in-out;
+          }
+
+    </style>
+    <head>
+        <body>
+             <div id="parent">
+
+            <div id="one"   class="one"></div>
+             <div id="two"  class="one"></div>
+            <div id="three" class="one"></div>
+             <div id="four" class="one"></div>
+              </div>
+            </body>
+    </head
+</html> 
