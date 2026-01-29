@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial,  sans-serif;
+        }
+        body{
+            background-color: beige;
+        }
+            .cards{
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                margin-top: 60px;
+               
+            }
+            .stats{
+                height: 400px;
+                width: 300px;
+                border: 2px solid black;
+                background-color: white;
+                border-radius: 20px;
+                box-shadow: 0 6px 15px black ;
+                text-align: center;
+                position: relative;
+                padding: 20px;
+                 
+            }
+            .stats a{
+                display: flex;
+                justify-content: baseline;
+                position: absolute;
+                margin: 5px auto;
+
+            }
+            .stats p{
+                display: flex;
+                justify-content: end;
+                position: absolute;
+                right: 15px;
+                margin: 5px auto;
+            }
+            .parent{
+            border: 2px soild black;
+            height: 500px;
+            width: 1000px;
+            margin: auto;
+            display: grid;
+            gap: 6px;
+            grid-template-rows: 60px 60px 60px;
+            grid-template-columns: 60px 60px 60px;
+            padding: 15%;
+            gap: 12px;
+            
+            
+        }
+        .child{
+            border: 1px soild beige;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .child:hover{
+            background-color: rgb(255, 0, 0);
+        }
+        /* .cards.stats.parent.child:hover{
+            background-color: gray;
+        } */
+        .start-btn{
+            position: absolute;
+            bottom: 10px;
+            left: 55%;
+            transform: translate(-50%);
+            height: 25px;
+            width: 120px;
+            background-color: blue;
+            border-radius: 15px;
+            color: white;
+           
+            
+        }    
+
+
+
+
+
+
+     </style>
+<body>
+    <div class="cards">
+        <div class="stats">
+        <h2>◾Whack-a-box</h2>
+        <br>
+        <h3>click</h3>
+        <br>
+        <a>Score: 2 </a> 
+        <p>Time: 3s</p>
+        <div class="parent">
+            <div class="child" id="one"></div>
+            <div class="child" id="two"></div>
+            <div class="child" id="three"></div>
+            <div class="child" id="four"></div>
+            <div class="child" id="five"></div>
+            <div class="child" id="six"></div>
+            <div class="child" id="seven"></div>
+            <div class="child" id="eight"></div>
+            <div class="child" id="nine"></div>
+            <button class="start-btn">start-game</button>
+
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
